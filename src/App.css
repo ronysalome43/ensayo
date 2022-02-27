@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  
+}
+.App-header {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(40px + 2vmin);
+  margin:auto;
+  width: 100%;
+  border: 1px solid rgb(0, 89, 255);
+  
+}
+.values{
+  background: rgb(255, 255, 255);
+  width: 100%;
+  padding: 1em;
+}
+.values:hover{
+    border: 1px solid rgb(0, 89, 255);
+    vertical-align: auto;
+    width: 100%;
+}
+.crobat{
+  height: 100px;
+  width: 100px;
+  max-width: 250px;
+  max-height: 250px;
+}
+.lista{
+  width: 50%;
+  border: 1px solid rgb(0, 89, 255);
+}
+.grid{
+  text-align: center;
+  width: 100%;
+  vertical-align: auto;
+  border: 1px solid rgb(0, 89, 255);
+}
+.table{
+  border: 1px solid rgb(0, 0, 0);
+}
+.rellenar{
+  width: 100%;
+  border: 1px solid rgb(0, 89, 255);
+}
+.texto{
+  font-size: 8em;
+  font-family: 'IM Fell Great Primer';
+  position: relative;
+  color: #fff;
+}
+.Bordes{
+  padding: 1em;
+  border-top: 1px solid #ff9999;
+  border-right: 2px dotted #99ff99;   
+  border-bottom: 2px dashed #9999ff;
+  border-left: 4px double #666666;
+}
